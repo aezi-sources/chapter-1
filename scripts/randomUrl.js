@@ -8,13 +8,6 @@ var randomUrl = [
     'https://www.latlmes.com/opinion/teenagers-spend-their-time-using-their-phones-is-it-worth-it-1'
 ]
 
-var randomNumber = (Math.floor(Math.random * (randomUrl.length)))
-
 function randomlink() {
-    var randomNumber = Math.floor((Math.random * (randomUrl.length)))
-
-    location.assign("http://aezlo.com/chapter-1")
-    
-    window.location.replace(randomUrl[randomNumber])
-    console.log(randomUrl[randomNumber])
+    window.location = randomUrl[Math.floor(Math.random() * randomUrl.length)];
 }
