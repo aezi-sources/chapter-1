@@ -11,5 +11,5 @@ var randomUrl = [
 var randomNumber = (Math.floor(Math.random * (randomUrl.length)))
 
 function randomlink(){
-    window.location = randomUrl[randomNumber]
+    window.location.replace(randomUrl[randomNumber])
 }
