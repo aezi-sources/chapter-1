@@ -1,0 +1,111 @@
+@import url('fonts/MetaSerif.css');
+@import url('fonts/NexaBold.css'); 
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,300,700');
+
+/*
+html, body, .hero, .overlay {
+    height: 140%;
+    width: 140%;
+    min-height: 110%;
+    min-width: 110%;
+    margin-top: -15px;
+    padding: 4px;
+}
+  
+.hero { 
+    background: url(https://s3.amazonaws.com/uploads.hipchat.com/21309/369069/P3rXUVfLuQGvv7N/bw.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+  
+  
+.overlay { 
+    -o-animation: colorcycle 20s infinite;
+    -moz-animation: colorcycle20s infinite;
+    -webkit-animation: colorcycle 20s infinite;
+    animation: colorcycle 20s infinite; 
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    filter: alpha(opacity=50);
+    -moz-opacity: 0.5;
+    -khtml-opacity: 0.5;
+    opacity: 0.5;
+}
+  
+  
+@-o-keyframes colorcycle {
+    0%   {background: #a24de3;}
+    25%  {background: #00aeff;}
+    50%  {background: #f45a4a;}
+    75%  {background: #4fd1cd;}
+    100% {background: #a24de3;}
+}
+  
+@-moz-keyframes colorcycle {
+    0%   {background: #a24de3;}
+    25%  {background: #00aeff;}
+    50%  {background: #f45a4a;}
+    75%  {background: #4fd1cd;}
+    100% {background: #a24de3;}
+}
+  
+@-webkit-keyframes colorcycle {
+    0%   {background: #a24de3;}
+    25%  {background: #00aeff;}
+    50%  {background: #f45a4a;}
+    75%  {background: #4fd1cd;}
+    100% {background: #a24de3;}
+}
+  
+@keyframes colorcycle {
+    0%   {background: #a24de3;}
+    25%  {background: #00aeff;}
+    50%  {background: #f45a4a;}
+    75%  {background: #4fd1cd;}
+    100% {background: #a24de3;}
+}
+
+*/
+
+/* Fonts */
+
+h2, p, .meta-serif {
+    font-family: 'Meta-Serif';
+    font-size: 3em;
+    color: #ffffff;
+}
+
+h1, .nexa-bold {
+    font-family: 'Nexa-Bold';
+    font-size: 8em;
+    color: #ffffff;
+}
+
+a {
+    font-family: 'Open Sans', serif;
+}
+
+/* Padding Sizes */
+
+.pad-away {
+    padding-top: 270px;
+}
+
+.pad-near-header {
+    padding-top: 42px;
+}
+
+.mega {
+    /* font-size: 4rem as 72 / 18 = 4 */
+    margin-bottom: 0.4125rem;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}

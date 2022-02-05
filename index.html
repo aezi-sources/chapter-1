@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Page Titles -->
+        <title>Chapter 1 | Minichest</title>
+        
+        <!-- Meta Tags -->
+        <meta charset="UTF-8">
+        <meta name="description" content="Free Web tutorials">
+        <meta name="keywords" content="HTML, CSS, JavaScript">
+        <meta name="author" content="John Doe">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Stylesheets and Scripts -->
+        <link rel="stylesheet" href="real.css">
+        <script src="scripts/quote.js"></script>
+        <script src="scripts/randomUrl.js"></script>
+
+        <!-- Bootstrap Stylesheets and Scripts -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    </head>
+    <body onLoad="newQuote()">
+        <div class="page-holder bg-cover bg-c1">
+
+            <div class="container py-5">
+              <header class="text-center text-white py-5">
+                <h1 class="display-4 font-weight-bold mb-4">TIME IS UP</h1>
+                <h3 class="meta-serif">Welcome to Chapter 1, guess there is more to everything than meets the eyes. The more elusive it gets, the ever more it will come to pass 1 day....</h2>
+              </header>
+          
+              <div class="text-white">
+                  <p class="lead">This is only part 1.</p>
+                  <p class="lead">The more that can be said about the number 1 the better, anyways here is some random quote about the number 1.</p>
+                  <p class="lead" id="quote"></p>
+                </div>
+              
+              <div class="button-container">
+                <button type="button" class="btn btn-primary btn-lg" onClick="randomlink()">Next</button>
+                <button type="button" class="btn btn-secondary btn-lg">Large button</button>
+              </div>
+            </div>
+          </div>
+    </body>
+</html>

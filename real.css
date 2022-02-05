@@ -1,0 +1,44 @@
+/*
+*
+* ==========================================
+* CUSTOM UTIL CLASSES
+* ==========================================
+*
+*/
+
+@import url('fonts/MetaSerif.css');
+@import url('fonts/NexaBold.css'); 
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,300,700');
+
+h2, .meta-serif {
+    font-family: 'Meta-Serif';
+    font-size: 3em;
+    color: #ffffff;
+}
+
+h1, .nexa-bold {
+    font-family: 'Nexa-Bold';
+    font-size: 8em;
+    color: #ffffff;
+}
+
+a, p {
+    font-family: 'Open Sans', serif;
+}
+
+.page-holder {
+    min-height: 100vh;
+}
+  
+.bg-cover {
+    background-size: cover !important;
+}
+
+.bg-c1 {
+    background: url("https://wallpaperaccess.com/full/173801.png")
+}
+
+.button-container {
+    text-align: center;
+}

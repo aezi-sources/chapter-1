@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'Nexa-Bold';
+    src: 
+         url('Nexa/Nexa-Bold.ttf') format('truetype'),
+         url('Nexa/Nexa-Bold.eot') format('eot'),
+         url('Nexa/Nexa-Bold.otf') format('otf'),
+         url('Nexa/Nexa-Bold.woff') format('woff')
+}
