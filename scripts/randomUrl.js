@@ -12,6 +12,9 @@ var randomNumber = (Math.floor(Math.random * (randomUrl.length)))
 
 function randomlink() {
     var randomNumber = Math.floor((Math.random * (randomUrl.length)))
+
+    location.assign("http://aezlo.com/chapter-1")
+    
     window.location.replace(randomUrl[randomNumber])
     console.log(randomUrl[randomNumber])
 }
